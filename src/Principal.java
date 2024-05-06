@@ -1,3 +1,4 @@
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Principal {
@@ -30,7 +31,14 @@ public class Principal {
         Scanner lectura = new Scanner(System.in);
         while (opcion != 7) {
             System.out.println(menu);
-            opcion = lectura.nextInt();
+
+            // Creando excepción por Valor Inesperado
+            try{
+                opcion = lectura.nextInt();
+            }catch (InputMismatchException e){
+                System.out.println("Ocurrio un error :");
+                System.out.println(e.getMessage());
+            }
 
             //  Creando Switch Case
             switch (opcion){
