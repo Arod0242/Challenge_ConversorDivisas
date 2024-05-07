@@ -21,7 +21,7 @@ El programa calculará la conversión y mostrará el resultado.
 
 <b>Ejemplo de uso:</b>
 
-"**********"
+* https://youtu.be/1cKeUGX3VLQ
 
 <h2>Características:</h2>
 
@@ -32,18 +32,30 @@ El programa calculará la conversión y mostrará el resultado.
 
 <h2>Próximos pasos:</h2>
 
-* Agregar más funcionalidades, como historial de conversiones o gráficos de tipos de cambio.
+* Agregar más funcionalidades, como historial de conversiones.
+* Agregra soporte para mas divisas.
+* Registro con Marca de Tiempo (Biblioteca java.time).
+* Probar funcionalidad con otras API.
 
 <h2>Desarrolladores:</h2>
 
 Alexis Giovanni Rodriguez Pacheco
 
+email: alexis.rodriguezpacheco@gmail.com
+
 <h2>Contribuciones:</h2>
 
 Se agradecen las contribuciones a este proyecto.
 
- 
-   
+<h2>Referencias:</h2>
+
+* https://app.aluracursos.com/
+* https://docs.oracle.com/
+* https://www.postman.com/
+* https://www.exchangerate-api.com/
+
+
+    
    <p align="left">
    <img src="https://img.shields.io/badge/STATUS-EN%20DESAROLLO-blue">
    </p>
